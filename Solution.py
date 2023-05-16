@@ -54,8 +54,3 @@ def test_verify_that_if_there_are_findings():
             assert citations is not None or strength == "No Evidence", "Conditions not satisfied: there are findings, then there is at least one citations OR the evidence strength is 'No Evidence'."
 
 
-            """
-            Bug:
-            For id - 2091241:
-            There are no citations, strength is Inadequate but there are findings
-            """
