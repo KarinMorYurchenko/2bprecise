@@ -27,7 +27,6 @@ def test_verify_that_each_ethnicity_frequency_is_lower_than_1_or_null():
 
 
 def test_verify_the_sum_of_frequencies_in_all_cyp2d6_alleles_lower_than_1():
-    global request
     request = requests.session()
     cyp2d6_allele_data = request.get('https://api.cpicpgx.org/v1/allele?genesymbol=eq.CYP2D6&name=eq.*1').json()
     ethnicity_frequencies = {}
@@ -42,7 +41,6 @@ def test_verify_the_sum_of_frequencies_in_all_cyp2d6_alleles_lower_than_1():
 
 
 def test_verify_that_if_there_are_findings():
-    global request
     request = requests.session()
     all_allele_data = request.get('https://api.cpicpgx.org/v1/allele').json()
     for allele in all_allele_data:
