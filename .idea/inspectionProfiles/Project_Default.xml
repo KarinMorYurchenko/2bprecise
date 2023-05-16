@@ -1,0 +1,66 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="EditorConfigEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="allure-python-commons" />
+            <item index="1" class="java.lang.String" itemvalue="allure-pytest" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E101" />
+          <option value="E128" />
+          <option value="E303" />
+          <option value="E501" />
+          <option value="E131" />
+          <option value="W292" />
+          <option value="E712" />
+          <option value="E302" />
+          <option value="E305" />
+          <option value="W605" />
+          <option value="E265" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N812" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="datetime.datetime.timedelta" />
+          <option value="list.text" />
+          <option value="datetime.datetime.datetime" />
+          <option value="str.find_element_by_css_selector" />
+          <option value="dateutil.relativedelta" />
+          <option value="ColumboAutomation.ColumboPageObjects.GroupsBoard.groups_table_over_all_element.find_element" />
+          <option value="ColumboAutomation.ColumboPageObjects.InvestigationsBoard.current_page_investigations" />
+          <option value="ColumboAutomation.ColumboPageObjects.InvestigationsBoard.investigations_rows" />
+          <option value="ColumboAutomation.ColumboPageObjects.InvestigationsBoard.self" />
+          <option value="list.find_element_by_tag" />
+          <option value="unittest.result.selector" />
+          <option value="str.find_element" />
+          <option value="super.setUp" />
+          <option value="urlparse" />
+          <option value="datetime.date.today" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
