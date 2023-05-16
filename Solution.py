@@ -49,4 +49,4 @@ def test_verify_that_if_there_are_findings():
         citations = allele.get("citations")
         strength = allele.get("strength")
         if findings:
-            assert citations is not None or strength == "No Evidence", "Conditions not satisfied: there are findings, then there is at least one citations OR the evidence strength is 'No Evidence'."
+            assert citations is not None or strength == "No Evidence", "Conditions not satisfied: there are findings, then there is more than one citations OR the evidence strength is not 'No Evidence'."
